@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="AutoBeheer">
+  <DataContextMoniker Name="/AutoBeheerDataContext" />
+  <nestedChildShapes>
+    <classShape Id="b0228d45-e054-49fd-ad6f-12f1f35b4a3e" absoluteBounds="2.5, 2.375, 2, 1.9631982421875">
+      <DataClassMoniker Name="/AutoBeheerDataContext/Auto" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c062890e-9003-400d-b7d0-f3d8588173cb" absoluteBounds="2.515, 2.835, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="49f1d1ac-6221-4549-9e11-61706afdd875" absoluteBounds="6.5, 2.375, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/AutoBeheerDataContext/Eigenaar" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3c3cf316-9910-4fc6-821f-4acc0674b317" absoluteBounds="6.515, 2.835, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(6.5 : 2.97199625651042); (4.5 : 2.97199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/AutoBeheerDataContext/Eigenaar/Eigenaar_Auto" />
+      <nodes>
+        <classShapeMoniker Id="49f1d1ac-6221-4549-9e11-61706afdd875" />
+        <classShapeMoniker Id="b0228d45-e054-49fd-ad6f-12f1f35b4a3e" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
